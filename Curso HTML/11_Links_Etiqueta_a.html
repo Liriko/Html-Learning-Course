@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Links - Etiqueta a </title>
+	</head>
+	<body>
+		<header>
+			<h1 align="center"><ins> Links - La etiqueta a </ins></h1>
+			<div align="center">
+				<img src="http://blog.open-office.es/media/blogs/writer/Trucos_Writer/hiperenlace/hiperenlace-openoffice-writer-0.png" />
+			</div>
+		</header>
+		<p align="center"> La etiqueta <b>&lta&gt</b> es útil para dejar hypervínculos a otra páginas o imágenes.
+			El atributo <b>&lthref&gt</b> define el link de destino al que redirige el hipervínculo. </p>
+		<p align="center"> A continuación, un ejemplo de cómo hacer uso de esta etiqueta, creando un hipervínculo que nos re-direccione al 
+			home de <b>Google</b>.</p>
+		<p align="center"><big><strong><em>&lta href="https://www.google.cl/"&gt Aquí va el mensaje que será clicable por el usuario. &lt/a&gt</em></strong></big></p>
+		<p align="center"> Y a continuación se muestra como se vería el hypervínculo: </p>
+		<p align="center"><a href="https://www.google.cl/"> Aquí va el mensaje que será clicable por el usuario. </a><p>
+		<p align="center"> Ahora, para que el mismo hypervínculo corresponda a una imagen, solo debe anidarse la etiqueta <b>&ltimg&gt</b> dentro de la etiqueta <b>&lta&gt</b>.
+			De la siguiente forma: </p>
+		<p align="center"><big><strong><em>&lta href="https://www.google.cl/"&gt&ltimg src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png" height="50px" width="200px"&gt&lt/img&gt&lt/a&gt</em></strong></big></p>
+		<p align="center"> Claro que, la idea es que dicha línea se encuentre dentro de un contenedor para poder centrarla, como se enseñó en el módulo 10. El resultado sería el siguiente: </p>
+		<div align="center">
+			<a href="https://www.google.cl/"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png" height="100px" width="250px"></img></a>
+		</div>
+		<p align="center"> Pero tenemos otro atributo importante a considerar, el atributo <b>target</b>, que especifica en dónde se visualizará el nuevo documento. Si al atributo
+			target le damos el valor <b>_blank</b> le estaremos indicando al navegador que debe abrir una nueva pestaña o ventana para mostrarnos el nuevo contenido.
+			Por el contrario, si usamos el valor <b>_self</b>, por ejemplo, le indicaremos que debe mostrarnos la nueva página en la misma pestaña, 
+			actualizando todo el contenido. </p>
+	</body>
+	<footer align="center">
+		<hr width="70%" />
+		<p align="center"><em> Hecho por Jorge Salgado </em></p>
+		<hr width="70%" />
+	</footer>
+</html>

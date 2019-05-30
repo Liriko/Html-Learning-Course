@@ -1,8 +1,11 @@
 # Html-Learning-Course
-A HTML course made by me
+Curso HTML hecho por mí.
 
-This course will introduce you to HTML and HTML5 Basics...
+Este curso pretende introducirte en los conceptos básicos de HTML.
 
-We will see CSS and Javascript later on...
+Más adelante veremos CSS y JavaScript, enfocándonos particularmente en éste último.
 
-I'll put more info about it here when i'm done with this course.
+Se abordó una metodología de trabajo incremental para la elaboración de este curso teórico-práctico en donde, a través del contenido del curso,
+se va poniendo en práctica los conceptos enseñados.
+
+Añadiré un detalle más acabado de este curso, en este documento, una vez finalizado el curso.
