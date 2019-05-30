@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Formularios </title>
+	</head>
+	<body>
+		<header>
+			<div align="center" style="background-color:#F5F5F3;color:blue;padding:1px">
+				<h1 align="center"><ins> Formularios </ins><h1>
+				<img src="https://us.123rf.com/450wm/odina222/odina2221408/odina222140800025/30645151-plantilla-de-formulario-de-login-fondo-el-dise%C3%B1o-de-interfaz-de-usuario-plana.jpg?ver=6" height="300px" width="250px">
+			</div>
+		</header>
+		<div align="center" style="background-color:#F5F5F3;color:blue;padding:1px">
+			<p> Un formulario en html sirve para poder capturar información del usuario.
+				El atributo <span style="color:red"><b>action</b></span> llevará al usuario a otro destino cuando envíe su información al formulario a través del <span style="color:red"><b>submit</b></span>. </p>
+			<p> El atributo <span style="color:red"><b>method</b></span> nos indica el método http que se utilizará para enviar la información del formulario de un lado a otro, cuando
+				el usuario presione el botón submit.
+				Los valores para este atributo pueden ser <span style="color:red"><b>GET</b></span> o <span style="color:red"><b>POST</b></span>.
+				Cuando se usa GET la información del formulario podrá visualizarse en la URL. Luego, es recomendable usar POST cuando se desea
+				actualizar información sensible, ya que ofrece una mejor seguridad al no desplegar estos datos en la URL, a diferencia del método GET.</p>
+			<p> Para capturar la información del usuario se hará uso de los elementos del formulario, como campos de texto.
+				El elemento <span style="color:red"><b>&ltinput&gt</b></span> tiene muchas variaciones, dependiendo del tipo de atributo. Puede ser un <b>texto</b>, un <b>password</b>, <b>radio</b>, 
+				<b>url</b>, <b>submit</b>, etc... 
+				La etiqueta &ltinput&gt no tiene etiqueta de cierre. </p>
+			<p> Si seleccionamos el tipo <span style="color:red"><b>radio</b></span>, haremos que el usuario deba escoger una de varias opciones. </p>
+			<p> Si seleccionamos el tipo <span style="color:red"><b>checkbox</b></span>, le damos la oportunidad al usuario de poder escoger entre una y más opciones. </p>
+			<p> Finalmente existe el elemento o botón <span style="color:red"><b>Submit</b></span> que gatillará el envío de la información del formulario a dónde corresponda
+				y a través el método de envío definido en el formulario. </p>
+			<form action="https://www.hotmail.com" method="POST">
+				<Strong> Nombre de usuario: </Strong>
+				<input type="text" name="Nombre de usuario" /><br />
+				<Strong> Contraseña: </Strong>
+				<input type="password" name="Contraseña" /><br />
+				<Strong> Rango de edad: </Strong><br />
+				<input type="radio" name="Edad" value="1" /> Menor de 18 <br />
+				<input type="radio" name="Edad" value="2" /> Mayor de 18 <br />
+				<Strong> Hobby: </Strong> <br />
+				<input type="checkbox" name="Hobby" value="1" /> Ping Pong <br />
+				<input type="checkbox" name="Hobby" value="2" /> Música <br />
+				<input type="checkbox" name="Hobby" value="3" /> Juegos de PC <br />
+				<Strong> Mi Biografía: </Strong><br />
+				<textarea name="MyBio"></textarea><br />
+				<input type="submit" value="Enviar" />
+			</form>	
+			<p> Posteriormente, para procesar esta información y hacer algo con ella, se recomienda hacer uso de algún lenguaje de programación como PHP </p>
+		</div>
+	</body>
+	<footer>
+		<div align="center" style="background-color:#09F7BB;color:blue">
+			<hr color="blue"/>	
+			<p><em><strong> Hecho por Jorge Salgado </strong></em></p>
+			<hr color="blue"/>
+		</div>
+	</footer>
+</html>
